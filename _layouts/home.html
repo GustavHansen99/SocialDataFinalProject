@@ -1,0 +1,93 @@
+---
+layout: default
+---
+<html>
+<head>
+	<title>Where to go</title>
+	<style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .column {
+      width: 33.33%;
+      float: left;
+      padding: 10px;
+      box-sizing: border-box;
+      text-align: center
+    }
+    .centered-image {
+    display: block;
+    margin: 0 auto;
+    }
+    h2 {
+    margin-bottom: -15px;
+    } 
+    p {
+    margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1 align="center"> Welcome home! </h1>
+  <img src = "https://cdn.shopify.com/s/files/1/1158/2314/products/Welcome_Home_1024x1024.jpg?v=1571711903"
+    width = 600 height = 300 class="centered-image"> </img>
+  <p align="center">
+  From here, you can pretty much go anywhere. Click one of the links below to get started, or use the menu in the top right corner.
+  </p>
+  <div class="container">
+    <div class="column">
+      <a href="/ToC/">
+      <h2>Table of Contents</h2>
+      </a>
+      <p>Get an overview of the projects content, and browse through our findings</p>
+    </div>
+    <div class="column">
+      <a href="/about/">
+        <h2>About the Project</h2>
+        </a>
+      <p>What is this project about? Look here.</p>
+    </div>
+    <div class="column">
+      <a href="we_are_we/">
+        <h2>Who are we?</h2>
+        </a>
+      <p>You decide! :O </p>
+    </div>
+  </div>
+</body>
+
+
+
+<!-- <div class="home">
+
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "Table of Contents" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        <!-- {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%} -->
+        <!-- <span class="post-meta">{{ post.date | date: date_format }}</span> -->
+        <!-- <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p> -->
+  <!-- {%- endif -%}
+
+</div> -->
+
