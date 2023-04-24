@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Who are we?
-permalink: /who_are_we/
+permalink: who_are_we/
 ---
 
 <h1 align="center" class="page-heading">{{ page.title }}</h1>
