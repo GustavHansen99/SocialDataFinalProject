@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Carbon Emission of Buildings in San Francisco
+permalink: /project/
 ---
 
 <h1 class="page-heading">{{ page.title }}</h1>
