@@ -51,7 +51,7 @@ permalink: /we_are_we/
         <p align="center">Bla bla bla</p>
 	</div>
 	<div class="column">
-        <h3 align="center">Name2</h3>
+        <h3 align="center">Name3</h3>
         <img src="/SocialDataFinalProject/site_content/giphy (2).gif" alt="dog3" width="200">
         <br>
         <p align="center">Bla bla bla</p>
