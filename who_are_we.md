@@ -39,20 +39,20 @@ permalink: /who_are_we/
 </head>
 <body>
 	<div class="column border-right">
-        <h3>Name1</h3>
-        <img src="/SocialDataFinalProject/site_content/giphy.gif" alt="dog1" width="200">
+        <h3 align="center"> Daniel Jalel </h3>
+        <img src="/SocialDataFinalProject/site_content/giphy.gif" alt="dog1" width="200" height="200">
         <br>
         <p>Bla bla bla</p>
 	</div>
 	<div class="column border-right">
-        <h3 align="center">Name2</h3>
-        <img src="/SocialDataFinalProject/site_content/giphy (1).gif" alt="dog2" width="200">
+        <h3 align="center"> Gustav Hansen </h3>
+        <img src="/SocialDataFinalProject/site_content/giphy (1).gif" alt="dog2" width="200" height="200">
         <br>
         <p align="center">Bla bla bla</p>
 	</div>
 	<div class="column">
-        <h3 align="center">Name3</h3>
-        <img src="/SocialDataFinalProject/site_content/giphy (2).gif" alt="dog3" width="200">
+        <h3 align="center"> Àiax Faura </h3>
+        <img src="/SocialDataFinalProject/site_content/giphy (2).gif" alt="dog3" width="200" height="200">
         <br>
         <p align="center">Bla bla bla</p>
 	</div>
