@@ -13,7 +13,7 @@ Empty about right now
     <embed 
         type="text/html" 
         src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
-        width="1200"
-        height="650"
+        width="1000"
+        height="500"
         >
 </div>
