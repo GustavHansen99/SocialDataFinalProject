@@ -12,7 +12,7 @@ Empty about right now
     <h4 style="text-align:center">Title here</h4>
     <embed 
         type="text/html" 
-        src="/coding/timeSeriesPlot.html"
+        src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
         width="1200"
         height="650"
         >
