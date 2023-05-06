@@ -32,7 +32,6 @@ Empty about right now blaaaaah blah blah tesitng hteah adsadsakfhsakfh sadhsahd 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 * {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
