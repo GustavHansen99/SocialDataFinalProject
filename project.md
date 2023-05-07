@@ -160,7 +160,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/site_content/slideshow.html"
             width="1024"
-            height="512"
+            height="600"
             >
     </div>
     <footer>
