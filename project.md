@@ -28,6 +28,26 @@ Empty about right now blaaaaah blah blah tesitng hteah adsadsakfhsakfh sadhsahd 
         >
 </div>
 
+<div>
+    <h4 style="text-align:center">Map Yearly V2</h4>
+    <embed 
+        type="text/html" 
+        src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
+        width="1100"
+        height="700"
+        >
+</div>
+
+<div>
+    <h4 style="text-align:center">Map Yearly V2</h4>
+    <embed 
+        type="text/html" 
+        src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
+        width="1100"
+        height="700"
+        >
+</div>
+
 <html>
 <head>
   <title>Slideshow Example</title>
