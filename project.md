@@ -69,7 +69,7 @@ permalink: /project/
         <img src="/SocialDataFinalProject/site_content/SF.gif" class="back-gif" alt="Messy">
     </div>
     <h1 class="page-title">{{ page.title }}</h1>
-    <p style="color:white">A deep dive into crime resolution</p>
+    <p style="color:white">A deep dive into the defilement of San Francisco</p>
     <br><br>
     <h2>Introduction</h2>
     <div> 
