@@ -103,6 +103,15 @@ permalink: /project/
     <p>
         Text here 
     </p>
+    <div>
+        <h4 style="text-align:center">Examples of requested cleaning tickets</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/site_content/slideshow.html"
+            width="1050"
+            height="600"
+            >
+    </div>
     <h2>Another title of something cool</h2>
     <p>
         Text here 
@@ -152,15 +161,6 @@ permalink: /project/
             src="/SocialDataFinalProject/assets/images/SF_mapYearly.html"
             width="1100"
             height="620"
-            >
-    </div>
-    <div>
-        <h4 style="text-align:center">Examples of requested cleaning tickets</h4>
-        <embed 
-            type="text/html" 
-            src="/SocialDataFinalProject/site_content/slideshow.html"
-            width="1050"
-            height="600"
             >
     </div>
     <footer>
