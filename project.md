@@ -159,9 +159,10 @@ permalink: /project/
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/site_content/slideshow.html"
+            width="1024"
+            height="512"
             >
     </div>
-    </body>
     <footer>
         <p>
             Click the link below to get a walkthrough of our data processing.
