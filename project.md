@@ -113,7 +113,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
             width="1100"
-            height="700"
+            height="720"
             >
     </div>
     <p>
@@ -134,7 +134,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
             width="1100"
-            height="700"
+            height="720"
             >
     </div>
     <h2>Concluding Thoughts</h2>
@@ -151,7 +151,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearly.html"
             width="1100"
-            height="600"
+            height="620"
             >
     </div>
     <div>
@@ -159,7 +159,7 @@ permalink: /project/
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/site_content/slideshow.html"
-            width="1024"
+            width="1050"
             height="600"
             >
     </div>
