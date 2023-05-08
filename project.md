@@ -1,216 +1,173 @@
 ---
 layout: page
-title: 3-1-1 Cases in San Francisco
+title: 3-1-1 - Street Cleaning Requests in San Francisco
 permalink: /project/
 ---
 
-<h1 class="page-heading">{{ page.title }}</h1>
-
-Empty about right now blaaaaah blah blah tesitng hteah adsadsakfhsakfh sadhsahd shdjhsdj hsajdh sadj ahd asjd hasfa  dhsadkjasidu asdjakdha sdhakdn akfb ajdhasndhadhakd asldh asd aknd jkad asdhsadalkdh ashd ad a
-
-<div>
-    <h4 style="text-align:center">Time Series</h4>
-    <embed 
-        type="text/html" 
-        src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
-        width="1100"
-        height="600"
-        >
-</div>
-
-<div>
-    <h4 style="text-align:center">Map Yearly</h4>
-    <embed 
-        type="text/html" 
-        src="/SocialDataFinalProject/assets/images/SF_mapYearly.html"
-        width="1100"
-        height="600"
-        >
-</div>
-
-<div>
-    <h4 style="text-align:center">Map Yearly V2</h4>
-    <embed 
-        type="text/html" 
-        src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
-        width="1100"
-        height="700"
-        >
-</div>
-
-<div>
-    <h4 style="text-align:center">Map Yearly V2</h4>
-    <embed 
-        type="text/html" 
-        src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
-        width="1100"
-        height="700"
-        >
-</div>
-
 <html>
 <head>
-  <title>Slideshow Example</title>
-  <meta charset="utf-8" />
-  <style>
-    /* Customize the appearance of the slideshow */
-    .slideshow-container {
-      position: relative;
-      margin: auto;
-      width: 1024px;
-      height: 512px;
-    }
-    .slideshow-container img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    /* Add navigation buttons */
-    .prev, .next {
-      position: absolute;
-      top: 60%;
-      transform: translateY(-50%);
-      width: auto;
-      margin-top: -22px;
-      padding: 16px;
-      color: white;
-      font-weight: bold;
-      font-size: 24px;
-      transition: 0.3s ease;
-      border-radius: 0 3px 3px 0;
-      cursor: pointer;
-    }
-    .prev {
-      left: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    /* Add a caption text */
-    .caption-container {
-      text-align: center;
-      background-color: #E8ECEB;
-      padding: 5px 10px;
-      color: #3c3c3c;
-    }
-    .p-slideshow { 
-        margin:0 
-    }
-    /* Dots container */
-    .dot-container {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-        background: transparent;
-    }
-    /* The dots */
-    .dot {
-        display: inline-block;
-        width: 15px;
-        height: 15px;
-        margin: 0 2px;
-        background-color: #bbb;
-        border-radius: 50%;
-        cursor: pointer;
-        transition: background-color 0.4s ease;
-    }
-    /* Add a background color to the active dot */
-    .active,
-    .dot:hover {
-        background-color: #717171;
-    }
-  </style>
+	<style>
+        .page-title {
+            color: white;
+            font-size: 32px;
+        }
+        h3 {
+            font-size: 14px;
+            text-align: center
+        }
+		.column {
+			float: left;
+			width: 50%;
+			padding: 10px;
+			box-sizing: border-box;
+            text-align: center;
+		}
+		.column img {
+			display: block; /* make the image a block element */
+			max-width: 100%; /* set the maximum width of the image to the width of its parent element */
+			height: auto; /* allow the height of the image to adjust proportionally */
+			margin: 0 auto; /* center the image horizontally */
+		}
+		.column p {
+			width: 80%; /* set the width of the paragraph text to 80% of the column */
+			margin: 0 auto; /* center the paragraph text horizontally */
+            text-align: justify
+		}
+        .border-right {
+            border-right: 1px solid black;
+        }
+		.clearfix::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+        div {
+            text-align: justify
+        }
+        .back-gif {
+            position: absolute;
+            left:0;
+            width: 100%;
+            height: auto;
+            z-index:-1;
+            transform: translateY(-80%);
+        }
+        footer {
+        text-align: right;
+        }
+        .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        }
+	</style>
 </head>
+
 <body>
-  <!-- Create a container for the slideshow -->
-  <div class="slideshow-container">
-    <!-- Add an element for each image -->
-    <div class="mySlides fade">
-      <img src="/SocialDataFinalProject/assets/SF_images/slideshow/Human_or_Animal_Waste_34730.0_Tenderloin_lat37.78401_lng-122.412526.png_combine.jpg" />
-      <div class="caption-container">
-        <div class="p-slideshow">Human or Animal Waste</div>
-        <div class="p-slideshow">Tenderloin</div>
-      </div>
+    <div class="city_life">
+        <img src="/SocialDataFinalProject/site_content/SF.gif" class="back-gif" alt="Messy">
     </div>
-    <div class="mySlides fade">
-      <img src="/SocialDataFinalProject/assets/SF_images/slideshow/Loose_Garbage_and_Debris_34728.0_Mission_lat37.768622_lng-122.4164.png_combine.jpg" />
-      <div class="caption-container">
-        <div class="p-slideshow">Loose Garbage and Debris</div>
-        <div class="p-slideshow">Mission</div>
-      </div>
+    <h1 class="page-title">{{ page.title }}</h1>
+    <p style="color:white">A deep dive into the defilement of San Francisco</p>
+    <br><br>
+    <h2>Introduction</h2>
+    <div> 
+    <p>
+        Text here
+        <br>
+        <br>
+        Text here
+        <br>
+        <br>
+    </p>
+    <h2>Our Dataset</h2>
+    <p>
+        Text here.... <a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank">link here to San Francisco 3-1-1 data from 2008-present</a>... Link to our Github explainer notebook <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">Github Repository</a>
+    <br>
+    <br>
+    </p>
+    <h2>Title of something interesting</h2>
+    <p>
+        Text here 
+    </p>
+    <div>
+    <h4 style="text-align:center">Time Series</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
+            width="1100"
+            height="600"
+        >
     </div>
-    <div class="mySlides fade">
-      <img src="/SocialDataFinalProject/assets/SF_images/slideshow/Loose_Garbage_and_Debris_34731.0_Silver_Terrace_lat37.738164_lng-122.401496.png_combine.jpg" />
-      <div class="caption-container">
-        <div class="p-slideshow">Loose Garbage and Debris</div>
-        <div class="p-slideshow">Silver Terrace</div>
-      </div>
+    <p>
+        Text here 
+    </p>
+    <div>
+        <h4 style="text-align:center">Examples of requested cleaning tickets</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/site_content/slideshow.html"
+            width="1050"
+            height="600"
+            >
     </div>
-    <div class="mySlides fade">
-      <img src="/SocialDataFinalProject/assets/SF_images/slideshow/Loose_Garbage_and_Debris_34750.0_Mission_lat37.768188_lng-122.419478.png_combine.jpg" />
-      <div class="caption-container">
-        <div class="p-slideshow">Loose Garbage and Debris</div>
-        <div class="p-slideshow">Mission</div>
-      </div>
+    <h2>Another title of something cool</h2>
+    <p>
+        Text here 
+    </p>
+    <div>
+        <h4 style="text-align:center">Map Yearly V2</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
+            width="1100"
+            height="720"
+            >
     </div>
-    <div class="mySlides fade">
-      <img src="/SocialDataFinalProject/assets/SF_images/slideshow/Loose_Garbage_and_Debris_35499.0_Chinatown_lat37.793897999022_lng-122.407841000113.png_combine.jpg" />
-      <div class="caption-container">
-        <div class="p-slideshow">Loose Garbage and Debris</div>
-        <div class="p-slideshow">Chinatown</div>
-      </div>
+    <p>
+        Text here 
+    </p>
+    <h2>Mission, South of Market and Tenderloin - The Trifecta of trouble</h2>
+    <p>
+        Text here... <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry" target="_blank">link here to San Francisco Historical data from 2003-2018</a> <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783" target="_blank">link here to San Francisco data from 2018-present</a>
+        <br>
+        <br>
+    </p>
+    <p>
+        Text here
+    </p>
+    <div>
+        <h4 style="text-align:center">Map Yearly V2</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
+            width="1100"
+            height="720"
+            >
     </div>
-    <!-- Add navigation buttons -->
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    <!-- Dots container -->
-    <div class="dot-container">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
+    <h2>Concluding Thoughts</h2>
+    <p>
+        Text here
+        <br>
+        <br>
+        Text here  
+    </p>
+    <h2>Temporary viz storage</h2>
+    <div>
+        <h4 style="text-align:center">Map Yearly</h4>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/SF_mapYearly.html"
+            width="1100"
+            height="620"
+            >
     </div>
-  </div>
-
-  <!-- Add JavaScript code to control the slideshow -->
-  <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
-    }
-
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    
-    // If the slide index is greater than the number of slides, reset to 1
-    if (n > slides.length) { slideIndex = 1 }
-    
-    // If the slide index is less than 1, set it to the number of slides
-    if (n < 1) { slideIndex = slides.length }
-    
-    // Hide all slides and remove "active" class from dots
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-        dots[i].classList.remove("active");
-    }
-
-    // Show the current slide and add "active" class to corresponding dot
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].classList.add("active");
-    }
-  </script>
+    <footer>
+        <p>
+            Click the link below to get a walkthrough of our data processing.
+            <br>
+            <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">Github Repository</a>
+        </p>
+    </footer>
 </body>
-</html>
