@@ -57,5 +57,6 @@ permalink: /who_are_we/
         <p align="center">Bla bla bla</p>
 	</div>
 	<div class="clearfix"></div>
+	<img src = "/SocialDataFinalProject/site_content/giphy (3).gif" width = 600 height = 300 class="centered-image"> </img>
 </body>
 </html>
