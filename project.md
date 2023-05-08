@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 3-1-1 Cases in San Francisco
+title: 3-1-1 - Street Cleaning Requests in San Francisco
 permalink: /project/
 ---
 
