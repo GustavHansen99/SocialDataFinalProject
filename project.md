@@ -74,11 +74,19 @@ permalink: /project/
     <h2>Introduction</h2>
     <div> 
     <p>
-        Text here
+        Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors. The cleanliness of a city plays a critical role in maintaining the public health, promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
+        San Francisco is a city that has faced significant challenges regarding the cleanliness of its streets. They are often littered with loose garbage, bulky items, needles and even human faeces, which is both repulsive and unhealthy. Major news outlets in San Francisco, such as the <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC </a> [1] and the <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> San Francisco Chronicle </a> [2], reported multiple stories around 2018 that highlighted this crucial problem. This has also given rise to Mayor London Breed to incorporate the <a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> "Clean Streets" -agenda into her main campaign </a> [3].
+        Given the significant issue of dirtiness in San Francisco and its ongoing discussion and seriousness, this report aims at contributiong to the understanding of the problem by analysing the government of San Francisco’s dataset (<a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank"> 3-1-1 Cases </a>) of cases associated with Street Cleaning requests in the city.
         <br>
-        <br>
-        Text here
-        <br>
+        In this way, we hypothesize that our report sheds light on especially two main questions: 
+        <ol type='1'>
+            <li>
+                Given the stories reported in 2018, are the dirty streets still a prevalent issue today in San Francisco? And if so what are some of the main reasons for and contributors to this?
+            </li>
+            <li>
+                Some news articles focused their attention to specific areas of the city. This project, however, also aims at elucidating if the problem is present throughout the city. In this way, we can answer if there are there any specific areas that are more affected by the problem than others? And if so, what are the main reasons for this? 
+            </li>
+        </ol>
         <br>
     </p>
     <h2>Our Dataset</h2>
@@ -153,16 +161,16 @@ permalink: /project/
         <br>
         Text here  
     </p>
-    <h2>Temporary viz storage</h2>
-    <div>
-        <h4 style="text-align:center">Map Yearly</h4>
-        <embed 
-            type="text/html" 
-            src="/SocialDataFinalProject/assets/images/SF_mapYearly.html"
-            width="1100"
-            height="620"
-            >
-    </div>
+    <h3>References</h3>
+    <ol type="1">
+        <li>
+            <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News article: SF's 'dirty streets' hurting international tourism as conventions struggle to come back </a>
+        </li>
+        <li>
+            <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> SF Chronicle: Letters: Why Mayor Breed’s efforts aren’t making S.F. streets safer or cleaner </a>
+        </li>
+        <li><a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> Mayor Breed: Clean Streets, Clean City </a></li>
+    </ol>
     <footer>
         <p>
             Click the link below to get a walkthrough of our data processing.
