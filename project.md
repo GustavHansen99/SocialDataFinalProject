@@ -53,13 +53,13 @@ permalink: /project/
             transform: translateY(-80%);
         }
         footer {
-        text-align: right;
+            text-align: right;
         }
         .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 95%;
         }
 	</style>
 </head>
@@ -74,7 +74,7 @@ permalink: /project/
     <h2>Introduction</h2>
     <div> 
     <p>
-        Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors.  Studies have shown that cleanliness of a city plays a critical role in maintaining the <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank">public health</a> [1], promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
+        Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors.  Studies have shown that cleanliness of a city plays a critical role in maintaining the <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank">public health</a> <a rel="noopener" href="#references">[1]</a>, promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
         San Francisco is a city that has faced significant challenges regarding the cleanliness of its streets. They are often littered with loose garbage, bulky items, needles and even human faeces, which is both repulsive and unhealthy. Major news outlets in San Francisco, such as <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News</a> [2] and the <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> San Francisco Chronicle</a> [3], reported multiple stories around 2018 that highlighted this crucial problem. This has also given rise to Mayor London Breed to incorporate the <a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> "Clean Streets"-agenda into her main campaign</a> [4].
         Given the significant issue of dirtiness in San Francisco and its ongoing discussion and seriousness, this report aims at contributiong to the understanding of the problem by analysing the government of San Francisco’s dataset (<a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank">3-1-1 Cases</a>) of cases associated with Street Cleaning requests in the city.
         <br>
@@ -95,6 +95,7 @@ permalink: /project/
         <br>
         The full dataset contains over 6 million requests made from 2008 to 2023, but since we focus on the Street and Sidewalk cleaning requests the actual dataset of interest contains approximately 2 million requests. Due to the significant size of the dataset, we only include requests with a latitude and longitude position within the boundaries of San Francisco. Moreover, we made sure that request types are not duplicated, but instead sum up similar types to get a more accurate representation of the severeness of the type. This means that for example, we accumulate the request types "Human or Animal Waste" and "Human Waste" to get a more accurate representation of the number of requests regarding human waste. 
         <br>
+        <br>
         For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">here</a>.
     </p>
     <h2>First point</h2>
@@ -103,12 +104,7 @@ permalink: /project/
     </p>
     <div>
         <h3>Figure 1: San Francisco Street & Sidewalk Cleaning Requests</h3>
-        <embed 
-            type="text/html" 
-            src="/SocialDataFinalProject/assets/images/BarChart.html"
-            width="1050"
-            height="600"
-            >
+        <iframe src="/SocialDataFinalProject/assets/images/BarChart.html" width="100%" height="625" style="border:none;" class='center'></iframe>
     </div>
     <p>
         Text here 
@@ -130,19 +126,14 @@ permalink: /project/
         Text here 
     </p>
     <div>
-    <h3>Time Series</h3>
-        <embed 
-            type="text/html" 
-            src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
-            width="1050"
-            height="600"
-        >
+        <h3>Time Series</h3>
+        <iframe src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html" width="100%" height="625" style="border:none;" class='center'></iframe>
     </div>
     <p>
         Text here 
     </p>
     <div>
-        <h3>Map Yearly V2</h3>
+        <h3>Total number of street cleaning request based on district</h3>
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
@@ -168,7 +159,7 @@ permalink: /project/
         Text here
     </p>
     <div>
-        <h3>Map Yearly V2</h3>
+        <h3>Total number of crimes based on district</h3>
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
@@ -183,7 +174,7 @@ permalink: /project/
         <br>
         Text here  
     </p>
-    <h4>References</h4>
+    <a id="references" style="color:inherit; text-decoration: none !important;"><h2>References</h2></a>
     <ol type="1">
         <li>
             <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank"> How Dirty Streets Are Affecting The Environment And Property Values In Your Area </a>
