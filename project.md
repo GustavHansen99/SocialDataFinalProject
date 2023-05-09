@@ -87,15 +87,15 @@ permalink: /project/
                 News articles often focuses their attention to specific areas of the city. This project, however, also aims at elucidating if the problem is present throughout the city. In this way, we can answer if there are any specific areas that are more affected by the problem than others. And if so, what are the main reasons for this?
             </li>
         </ol>
-        <br>
     </p>
     <h2>Our Dataset</h2>
     <p>
         The dataset used for this project is the 311 Cases dataset made publicly available by the city's 311 Customer Service Center. The dataset contains non-emergency requests for service made by residents and visitors to the 311 Customer Service Center via  <a href="https://sf311.org/" target="_blank">phone calls, online submissions</a> [5] or mobile apps. The request types cover a wide range of issues, such as street and sidewalk cleaning, graffiti, abandoned vehicles and noise complaints. The dataset contains detailed information about each request, such as the date and time it was made, the location, the nature of the problem, and the status of the problem. The dataset is regularly updated to include the newest requests made, however we do not consider request made after the 30th of April. 
         <br>
+        <br>
         The full dataset contains over 6 million requests made from 2008 to 2023, but since we focus on the Street and Sidewalk cleaning requests the actual dataset of interest contains approximately 2 million requests. Due to the significant size of the dataset, we only include requests with a latitude and longitude position within the boundaries of San Francisco. Moreover, we made sure that request types are not duplicated, but instead sum up similar types to get a more accurate representation of the severeness of the type. This means that for example, we accumulate the request types "Human or Animal Waste" and "Human Waste" to get a more accurate representation of the number of requests regarding human waste. 
         <br>
-        If you want to get a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">here</a>.
+        For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">here</a>.
     </p>
     <h2>First point</h2>
     <p>
@@ -134,7 +134,7 @@ permalink: /project/
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
-            width="1100"
+            width="1050"
             height="600"
         >
     </div>
@@ -146,8 +146,8 @@ permalink: /project/
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
-            width="1100"
-            height="720"
+            width="1050"
+            height="600"
             >
     </div>
     <p>
@@ -172,8 +172,8 @@ permalink: /project/
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
-            width="1100"
-            height="720"
+            width="1050"
+            height="600"
             >
     </div>
     <h2>Concluding Thoughts</h2>
