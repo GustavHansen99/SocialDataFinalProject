@@ -127,7 +127,12 @@ permalink: /project/
     </p>
     <div>
         <h3>Time Series</h3>
-        <iframe src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html" width="100%" height="625" style="border:none;" class='center'></iframe>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
+            width="1025"
+            height="600"
+            >
     </div>
     <p>
         Text here 
@@ -138,7 +143,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
             width="1050"
-            height="600"
+            height="725"
             >
     </div>
     <p>
@@ -164,7 +169,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
             width="1050"
-            height="600"
+            height="725"
             >
     </div>
     <h2>Concluding Thoughts</h2>
