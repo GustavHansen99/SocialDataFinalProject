@@ -75,16 +75,16 @@ permalink: /project/
     <div> 
     <p>
         Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors. The cleanliness of a city plays a critical role in maintaining the public health, promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
-        San Francisco is a city that has faced significant challenges regarding the cleanliness of its streets. They are often littered with loose garbage, bulky items, needles and even human faeces, which is both repulsive and unhealthy. Major news outlets in San Francisco, such as the <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC </a> [1] and the <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> San Francisco Chronicle </a> [2], reported multiple stories around 2018 that highlighted this crucial problem. This has also given rise to Mayor London Breed to incorporate the <a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> "Clean Streets" -agenda into her main campaign </a> [3].
-        Given the significant issue of dirtiness in San Francisco and its ongoing discussion and seriousness, this report aims at contributiong to the understanding of the problem by analysing the government of San Francisco’s dataset (<a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank"> 3-1-1 Cases </a>) of cases associated with Street Cleaning requests in the city.
+        San Francisco is a city that has faced significant challenges regarding the cleanliness of its streets. They are often littered with loose garbage, bulky items, needles and even human faeces, which is both repulsive and unhealthy. Major news outlets in San Francisco, such as <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News </a> [1] and the <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> San Francisco Chronicle </a> [2], reported multiple stories around 2018 that highlighted this crucial problem. This has also given rise to Mayor London Breed to incorporate the <a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> "Clean Streets"-agenda into her main campaign </a> [3].
+        Given the significant issue of dirtiness in San Francisco and its ongoing discussion and seriousness, this report aims at contributiong to the understanding of the problem by analysing the government of San Francisco’s dataset (<a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank">3-1-1 Cases</a>) of cases associated with Street Cleaning requests in the city.
         <br>
-        In this way, we hypothesize that our report sheds light on especially two main questions: 
+        In this way, we hypothesize that our report sheds light on especially two main issues: 
         <ol type='1'>
             <li>
                 Given the stories reported in 2018, are the dirty streets still a prevalent issue today in San Francisco? And if so what are some of the main reasons for and contributors to this?
             </li>
             <li>
-                Some news articles focused their attention to specific areas of the city. This project, however, also aims at elucidating if the problem is present throughout the city. In this way, we can answer if there are there any specific areas that are more affected by the problem than others? And if so, what are the main reasons for this? 
+                News articles often focuses their attention to specific areas of the city. This project, however, also aims at elucidating if the problem is present throughout the city. In this way, we can answer if there are there any specific areas that are more affected by the problem than others? And if so, what are the main reasons for this?
             </li>
         </ol>
         <br>
@@ -95,12 +95,40 @@ permalink: /project/
     <br>
     <br>
     </p>
-    <h2>Title of something interesting</h2>
+    <h2>First point</h2>
     <p>
         Text here 
     </p>
     <div>
-    <h4 style="text-align:center">Time Series</h4>
+        <h3>Examples of requested cleaning tickets</h3>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/assets/images/BarChart.html"
+            width="1050"
+            height="600"
+            >
+    </div>
+    <p>
+        Text here 
+    </p>
+    <div>
+        <h3>Examples of requested cleaning tickets</h3>
+        <embed 
+            type="text/html" 
+            src="/SocialDataFinalProject/site_content/slideshow.html"
+            width="1050"
+            height="600"
+            >
+    </div>
+    <p>
+        Text here 
+    </p>
+    <h2>Second point</h2>
+    <p>
+        Text here 
+    </p>
+    <div>
+    <h3>Time Series</h3>
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
@@ -112,20 +140,7 @@ permalink: /project/
         Text here 
     </p>
     <div>
-        <h4 style="text-align:center">Examples of requested cleaning tickets</h4>
-        <embed 
-            type="text/html" 
-            src="/SocialDataFinalProject/site_content/slideshow.html"
-            width="1050"
-            height="600"
-            >
-    </div>
-    <h2>Another title of something cool</h2>
-    <p>
-        Text here 
-    </p>
-    <div>
-        <h4 style="text-align:center">Map Yearly V2</h4>
+        <h3>Map Yearly V2</h3>
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_mapYearlyV2.html"
@@ -136,17 +151,22 @@ permalink: /project/
     <p>
         Text here 
     </p>
+    <h2>Third point</h2>
+    <p>
+        Text here 
+    </p>
     <h2>Mission, South of Market and Tenderloin - The Trifecta of trouble</h2>
     <p>
         Text here... <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry" target="_blank">link here to San Francisco Historical data from 2003-2018</a> <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783" target="_blank">link here to San Francisco data from 2018-present</a>
         <br>
         <br>
+        Text here <a href="https://www.cbsnews.com/sanfrancisco/news/surging-crime-dirty-streets-local-residents-say-san-franciscos-mission-district-is-in-crisis/" target="_blank"> MISSION DISTRICT - SUPER NICE REFERENCE </a> [X]
     </p>
     <p>
         Text here
     </p>
     <div>
-        <h4 style="text-align:center">Map Yearly V2</h4>
+        <h3>Map Yearly V2</h3>
         <embed 
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
@@ -161,7 +181,7 @@ permalink: /project/
         <br>
         Text here  
     </p>
-    <h3>References</h3>
+    <h4>References</h4>
     <ol type="1">
         <li>
             <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News article: SF's 'dirty streets' hurting international tourism as conventions struggle to come back </a>
@@ -171,6 +191,7 @@ permalink: /project/
         </li>
         <li><a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank"> Mayor Breed: Clean Streets, Clean City </a></li>
     </ol>
+    </body>
     <footer>
         <p>
             Click the link below to get a walkthrough of our data processing.
@@ -178,4 +199,3 @@ permalink: /project/
             <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">Github Repository</a>
         </p>
     </footer>
-</body>
