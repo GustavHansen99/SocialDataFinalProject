@@ -35,6 +35,11 @@ permalink: /who_are_we/
 			clear: both;
 			display: table;
 		}
+		.centered-image {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
 	</style>
 </head>
 <body>
@@ -57,6 +62,6 @@ permalink: /who_are_we/
         <p align="center">Bla bla bla</p>
 	</div>
 	<div class="clearfix"></div>
-	<img src = "/SocialDataFinalProject/site_content/giphy (3).gif" width = 600 height = 300 class="centered-image"> </img>
+		<img src = "/SocialDataFinalProject/site_content/giphy (3).gif" width=600 height=300 class="centered-image">
 </body>
 </html>
