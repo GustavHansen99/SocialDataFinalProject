@@ -90,7 +90,7 @@ permalink: /project/
     </p>
     <h2>Our Dataset</h2>
     <p>
-        The dataset used for this project is the 311 Cases dataset made publicly available by the city's 311 Customer Service Center. The dataset contains non-emergency requests for service made by residents and visitors to the 311 Customer Service Center via  <a href="https://sf311.org/" target="_blank">phone calls, online submissions</a> [5] or mobile apps. The request types cover a wide range of issues, such as street and sidewalk cleaning, graffiti, abandoned vehicles and noise complaints. The dataset contains detailed information about each request, such as the date and time it was made, the location, the nature of the problem, and the status of the problem. The dataset is regularly updated to include the newest requests made, however we do not consider request made after the 30th of April. 
+        The dataset used for this project is the 311 Cases dataset made publicly available by the city's 311 Customer Service Center. The dataset contains non-emergency requests for service made by residents and visitors of San Francisco to the 311 Customer Service Center via  <a href="https://sf311.org/" target="_blank">phone calls, online submissions</a> [5] or mobile apps. The request types cover a wide range of issues, such as street and sidewalk cleaning, graffiti, abandoned vehicles and noise complaints. The dataset contains detailed information about each request, such as the date and time it was made, the location, the nature of the problem, and the status of the problem. The dataset is regularly updated to include the newest requests made, however we do not consider request made after the 30th of April. 
         <br>
         <br>
         The full dataset contains over 6 million requests made from 2008 to 2023, but since we focus on the Street and Sidewalk cleaning requests the actual dataset of interest contains approximately 2 million requests. Due to the significant size of the dataset, we only include requests with a latitude and longitude position within the boundaries of San Francisco. Moreover, we made sure that request types are not duplicated, but instead sum up similar types to get a more accurate representation of the severeness of the type. This means that for example, we accumulate the request types "Human or Animal Waste" and "Human Waste" to get a more accurate representation of the number of requests regarding human waste. Lastly, we direct focus towards the 10 most frequent request types, which are hence also the types we deem most relevant for our analysis. We will refer to these as the main request types, and we will not consider tendencies in the other request types.
@@ -169,9 +169,6 @@ permalink: /project/
         <br>
         <br>
         To answer this, we employ a second dataset that we can use to support the analysis. This dataset is the San Francisco Police Department Incident Reports dataset, which contains information about all the incidents reported to the San Francisco Police Department from 2003 to present. The dataset contains information about the type of incident, the district, the date and time of the incident, and the location of the incident <a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-Historical-2003/tmnf-yvry" target="_blank">[11]</a><a href="https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783" target="_blank">[12]</a>. 
-    </p>
-    <p>
-        Text here
     </p>
     <div>
         <h3>Figure 5: A Yearly District-Level Perspective on Crimes in San Francisco</h3>
