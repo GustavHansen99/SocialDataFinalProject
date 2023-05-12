@@ -164,7 +164,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/assets/images/timeSeriesPlot.html"
             width="1025"
-            height="600"
+            height="550"
             >
     </div>
     <p>
