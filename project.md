@@ -145,7 +145,7 @@ permalink: /project/
             type="text/html" 
             src="/SocialDataFinalProject/site_content/slideshow.html"
             width="1050"
-            height="600"
+            height="520"
             >
     </div>
     <h2>From Needles to Christmas Trees: Decoding San Francisco's Dirty Secrets</h2>
