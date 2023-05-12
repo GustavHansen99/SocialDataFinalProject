@@ -70,11 +70,26 @@ permalink: /project/
     </div>
     <h1 class="page-title">{{ page.title }}</h1>
     <p style="color:white">A deep dive into the defilement of San Francisco</p>
-    <br><br>
+    <br>
+    <br>
     <h2>Introduction</h2>
+    <div>
+        <p>
+            For the outside world San Francisco is a city that is known for its beautiful scenery, iconic landmarks and its unique Victorian architecture. The Golden Gate Bridge, Alcatraz Island, the Painted Ladies and the cable cars are just some of the many attractions that the city has to offer.
+        </p>
+    </div>
+    <div class="column">
+        <h4 align="center"> The Golden Gate Bridge </h4>
+        <img src="/SocialDataFinalProject/site_content/goldengate.jpg" alt="bridge" width="425" height="200">
+    </div>
+    <div class="column">
+        <h4 align="center"> The Painted Ladies (Alamo Square) </h4>
+        <img src="/SocialDataFinalProject/site_content/postcardRow.png" alt="houses" width="360" height="200">
+        <br>
+    </div>
     <div> 
     <p>
-        Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors.  Studies have shown that cleanliness of a city plays a critical role in maintaining the <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank">public health</a> [1], promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
+        However, underneath the surface San Francisco is a city that has been facing significant challenges in recent years. One of the most significant issues is the cleanliness of its streets. Keeping cities clean and safe is one of the most important and essential factors for the well-being of both residents and visitors.  Studies have shown that cleanliness of a city plays a critical role in maintaining the <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank">public health</a> [1], promoting tourism and creating a safe and comfortable environment for everyone. On the other hand, when a city is dirty and filled with trash and waste, it negatively impacts the quality of life for all parties involved.
         San Francisco is a city that has faced significant challenges regarding the cleanliness of its streets. They are often littered with loose garbage, bulky items, needles and even human faeces, which is both repulsive and unhealthy. Major news outlets in San Francisco, such as <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News</a> [2] and the <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> San Francisco Chronicle</a> [3], reported multiple stories around 2018 that highlighted this crucial problem. This has also given rise to Mayor London Breed to incorporate the "Clean Streets"-agenda into her <a href="https://londonformayor.com/policies/clean-streets-clean-city-2/" target="_blank">main campaign</a> [4].
         Given the significant issue of dirtiness in San Francisco and its ongoing discussion and seriousness, this report aims at contributiong to the understanding of the problem by analysing the government of San Francisco’s dataset (<a href="https://data.sfgov.org/City-Infrastructure/311-Cases/vw6y-z8j6" target="_blank">3-1-1 Cases</a>) of cases associated with Street Cleaning requests in the city.
         <br>
