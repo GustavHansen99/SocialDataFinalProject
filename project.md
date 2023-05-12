@@ -59,7 +59,12 @@ permalink: /project/
             display: block;
             margin-left: auto;
             margin-right: auto;
-            width: 95%;
+            width: 85%;
+        }
+        iframe {
+            display: block;
+            border-style:none;
+            margin: 0 auto;
         }
 	</style>
 </head>
@@ -122,7 +127,9 @@ permalink: /project/
     </p>
     <div>
         <h3>Figure 1: San Francisco Street & Sidewalk Cleaning Requests</h3>
-        <iframe src="/SocialDataFinalProject/assets/images/BarChart.html" width="100%" height="625" style="border:none;" class='center'></iframe>
+        <div class="center">
+        <iframe src="/assets/images/BarChartV2.html" width="100%" height="500"></iframe>
+        </div>
     </div>
     <p>
         While we observe a significant increase in street cleaning requests from the citizens of San Francisco we must be vary in concluding that this can be solely attributed to the streets getting more and more dirty. The increase in requests is of course the principal proxy for dirty streets, but other factors such as the population growth of San Francisco, the increase in technology adaptation, 311 service awareness, and many others must also be considered as contributing factors. 
