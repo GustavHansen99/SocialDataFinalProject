@@ -120,7 +120,7 @@ permalink: /project/
     </p>
     <h2>The Dirtier Side of San Francisco: Increasing Demand for Street Cleaning</h2>
     <p>
-        In 2018, <a href="https://www.youtube.com/watch?v=VEOkX9dp85I&ab_channel=NBCBayArea" target="_blank">NBC Bay Area</a> conducted a thorough analysis about the cleanliness of San Francisco’s streets [6]. They concluded that the cleanliness of San Francisco’s streets had deteriorated over time, and especially more severe issues like needles and animal waste were contributing to an image of San Francisco comparable to slums in developing countries. In this section, we start by attempting to track the number of cleaning requests in San Francisco to see if San Francisco's dirtiness has improved or worsened over the years. Given the possibility through the vast amount of data, we will attempt to track the number of cleaning requests per year, and see if there is a trend in the number of requests, and why that might be the case.
+        In 2018, <a href="https://www.youtube.com/watch?v=VEOkX9dp85I&ab_channel=NBCBayArea" target="_blank">NBC Bay Area</a> [6] conducted a thorough analysis about the cleanliness of San Francisco’s streets. They concluded that the cleanliness of San Francisco’s streets had deteriorated over time, and especially more severe issues like needles and animal waste were contributing to an image of San Francisco comparable to slums in developing countries. In this section, we start by attempting to track the number of cleaning requests in San Francisco to see if San Francisco's dirtiness has improved or worsened over the years. Given the possibility through the vast amount of data, we will attempt to track the number of cleaning requests per year, and see if there is a trend in the number of requests, and why that might be the case.
         <br>
         <br>
         In Figure 1, we show the total number of street cleaning requests from 2008 to 2022. From the figure, one recognizes that the number of cleaning requests is clearly increasing over time. Observing increasing numbers year by year contributes to a trend that is troubling for the city. Just in 15 years the number of requests has increased by more than tenfold to nearly 300,000. This is a significant increase, and it is therefore interesting to investigate why this could be the case.
@@ -206,16 +206,17 @@ permalink: /project/
     </div>
     <h2>Concluding Thoughts</h2>
     <p>
-        From our comprehensive analysis of street cleanliness in San Francisco, several key takeaways emerge. Firstly, it's evident that San Francisco has been grappling with cleanliness issues over the years, with the number of cleaning requests increasing significantly from 2008 to 2023. This upward trend suggests that San Francisco's streets are becoming progressively dirtier, affecting the city's image and quality of life for its residents.
+        From our comprehensive analysis of street cleanliness in San Francisco, several key takeaways emerge. Firstly, it's evident that San Francisco has been grappling with cleanliness issues over the years, with the number of cleaning requests increasing significantly from 2008 to 2023. This upward trend suggests that San Francisco's streets are becoming progressively dirtier, affecting the city's image and quality of life for its residents. Hence, confirming that the analysis put out by the NBC Bay Area is still valid.
         <br>
         Nevertheless, the rise in street cleaning requests may not entirely indicate an increase in dirtiness. Other factors such as technological advancements, population growth, and awareness of the 311 service could also contribute to this surge. While San Francisco's grimy streets are a pressing issue, it's essential to consider these underlying factors when interpreting the data.
         <br>
         <br>
-        When examining the types of cleanliness complaints, we notice a decrease in requests related to "Human or Animal Waste" and "Needles" around 2018, coinciding with the city's efforts to tackle these specific problems. This positive trend might suggest the city's actions are yielding results and should be sustained.
-        The data also reveals a geographically uneven distribution of cleanliness issues, with districts like Mission, Tenderloin, and South of Market being most affected. However, there seems to be a shift in cleanliness complaints from Tenderloin and South of Market to the Mission district in recent years, suggesting that the problem might be moving rather than resolving.
+        The dirty streets are still a prevalent issue today in San Francisco. However, when examining the types of cleanliness complaints, we notice a decrease in requests related to "Human or Animal Waste" and "Needles" around 2018, coinciding with the city's efforts to tackle these specific problems. This positive trend might suggest the city's actions are yielding results and should be sustained.
+        <br>
+        The data also reveals a geographically uneven distribution of cleanliness issues, with districts like Mission, Tenderloin, and South of Market being most affected. Yet, there seems to be a shift in cleanliness complaints from Tenderloin and South of Market to the Mission district in recent years, suggesting that the problem might be moving rather than resolving.
         <br>
         <br>
-        Moreover, a strong correlation exists between areas with high cleaning requests and crime incidents. Mission, Tenderloin, and South of Market, often highlighted as problematic areas, indeed exhibit a high number of both cleaning requests and crime incidents. This correlation, although not surprising considering these areas' socioeconomic status, deserves deeper investigation.
+        We also observe that a strong correlation exists between areas with high cleaning requests and crime incidents. Mission, Tenderloin, and South of Market, often highlighted as problematic areas, indeed exhibit a high number of both cleaning requests and crime incidents. This correlation, although not surprising considering these areas' socioeconomic status, deserves deeper investigation.
         <br>
         Looking forward, the findings from this report offer several potential directions for further research and action. One clear area is to delve deeper into the reasons behind the geographical shift of cleanliness complaints. Another is to investigate the strong correlation between cleaning requests and crime incidents and the potential underlying socioeconomic factors. Understanding these aspects could provide valuable insights into formulating effective strategies to improve the cleanliness of San Francisco's streets. A potential solution may lie in studying and adopting strategies from cities like Los Angeles, known for its more efficient trash collection programs in terms of money spent per collected trash.
         <br>
@@ -243,13 +244,13 @@ permalink: /project/
             <a href="https://www.youtube.com/watch?v=VEOkX9dp85I&ab_channel=NBCBayArea" target="_blank">NBC Bay Area: Behind the Story: Walking San Francisco's Dirty Streets</a>
         </li>
         <li>
-            <a href="https://www.sfchronicle.com/bayarea/article/SF-to-get-team-dedicated-to-clearing-used-needles-12858548.php" target="_blank">SF Chronicle: SF to get team dedicated to clearing used needles from city’s streets</a>
-        </li>
-        <li>
             <a href="https://sfstandard.com/research-data/san-francisco-bay-area-california-population-decline-census-pandemic-covid/" target="_blank">The SF Standard: It’s Official: A Quarter Million People Fled the Bay Area Since Covid</a>
         </li>
         <li>
             <a href="https://www.statista.com/statistics/201182/forecast-of-smartphone-users-in-the-us/" target="_blank">US Smartphone Users 2009-2040</a>
+        </li>
+        <li>
+            <a href="https://www.sfchronicle.com/bayarea/article/SF-to-get-team-dedicated-to-clearing-used-needles-12858548.php" target="_blank">SF Chronicle: SF to get team dedicated to clearing used needles from city’s streets</a>
         </li>
         <li>
             <a href="https://www.sfaf.org/collections/status/getting-syringes-off-san-francisco-streets/" target="_blank">SF Aids Foundation: Getting syringes off San Francisco streets</a>
