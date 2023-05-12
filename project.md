@@ -199,7 +199,7 @@ permalink: /project/
         <h3>Figure 5: A Yearly District-Level Perspective on Crimes in San Francisco</h3>
         <embed 
             type="text/html" 
-            src="/SocialDataFinalProject/assets/images/SF_CrimemapYearlyV2.html"
+            src="/assets/images/SF_CrimemapYearlyV2.html"
             width="1050"
             height="725"
             >
