@@ -116,7 +116,7 @@ permalink: /project/
         The full dataset contains over 6 million requests made from 2008 to 2023, but since we focus on the Street and Sidewalk cleaning requests the actual dataset of interest contains approximately 2 million requests. Due to the significant size of the dataset, we only include requests with a latitude and longitude position within the boundaries of San Francisco. Moreover, we made sure that request types are not duplicated, but instead sum up similar types to get a more accurate representation of the severeness of the type. This means that for example, we accumulate the request types "Human or Animal Waste" and "Human Waste" to get a more accurate representation of the number of requests regarding human waste. Lastly, we direct focus towards the 10 most frequent request types, which are hence also the types we deem most relevant for our analysis. We will refer to these as the main request types, and we will not consider tendencies in the other request types.
         <br>
         <br>
-        For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://nbviewer.org/github/GustavHansen99/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">here</a>.
+        For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://nbviewer.org/github/notaiax/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">here</a>.
     </p>
     <h2>The Dirtier Side of San Francisco: Increasing Demand for Street Cleaning</h2>
     <p>
@@ -272,7 +272,7 @@ permalink: /project/
         <p>
             Click the link below to get a walkthrough of our data processing.
             <br>
-            <a href="https://nbviewer.org/github/GustavHansen99/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">NBViewer</a>
+            <a href="https://nbviewer.org/github/notaiax/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">NBViewer</a>
             <br>
             <a href="https://github.com/GustavHansen99/SocialDataFinalProject/" target="_blank">Github Repository</a>
         </p>
