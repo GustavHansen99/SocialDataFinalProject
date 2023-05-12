@@ -116,7 +116,7 @@ permalink: /project/
         The full dataset contains over 6 million requests made from 2008 to 2023, but since we focus on the Street and Sidewalk cleaning requests the actual dataset of interest contains approximately 2 million requests. Due to the significant size of the dataset, we only include requests with a latitude and longitude position within the boundaries of San Francisco. Moreover, we made sure that request types are not duplicated, but instead sum up similar types to get a more accurate representation of the severeness of the type. This means that for example, we accumulate the request types "Human or Animal Waste" and "Human Waste" to get a more accurate representation of the number of requests regarding human waste. Lastly, we direct focus towards the 10 most frequent request types, which are hence also the types we deem most relevant for our analysis. We will refer to these as the main request types, and we will not consider tendencies in the other request types.
         <br>
         <br>
-        For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">here</a>.
+        For a more hands-on inspection of the creation of this report, we have composed all findings in an explainer notebook, that can be found <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">here</a>.
     </p>
     <h2>The Dirtier Side of San Francisco: Increasing Demand for Street Cleaning</h2>
     <p>
@@ -206,9 +206,9 @@ permalink: /project/
     </div>
     <h2>Concluding Thoughts</h2>
     <p>
-        From our comprehensive analysis of street cleanliness in San Francisco, several key takeaways emerge. Firstly, it's evident that San Francisco has been grappling with cleanliness issues over the years, with the number of cleaning requests increasing significantly from 2008 to 2023. This upward trend suggests that San Francisco's streets are becoming progressively dirtier, affecting the city's image and quality of life for its residents. Hence, confirming that the analysis put out by the NBC Bay Area is still valid.
+        From our comprehensive analysis of street cleanliness in San Francisco, several key takeaways emerge. Firstly, it is evident that San Francisco has been grappling with cleanliness issues over the years, with the number of cleaning requests increasing significantly from 2008 to 2023. This upward trend suggests that San Francisco's streets are becoming progressively dirtier, affecting the city's image and quality of life for its residents. Hence, confirming that the analysis put out by the NBC Bay Area is still valid, as well as our first hypothesis.
         <br>
-        Nevertheless, the rise in street cleaning requests may not entirely indicate an increase in dirtiness. Other factors such as technological advancements, population growth, and awareness of the 311 service could also contribute to this surge. While San Francisco's grimy streets are a pressing issue, it's essential to consider these underlying factors when interpreting the data.
+        Nevertheless, the rise in street cleaning requests may not entirely indicate an increase in dirtiness. Other factors such as technological advancements, population growth, and awareness of the 311 service could also contribute to this surge. While San Francisco's grimy streets are a pressing issue, it is essential to consider these underlying factors when interpreting the data.
         <br>
         <br>
         The dirty streets are still a prevalent issue today in San Francisco. However, when examining the types of cleanliness complaints, we notice a decrease in requests related to "Human or Animal Waste" and "Needles" around 2018, coinciding with the city's efforts to tackle these specific problems. This positive trend might suggest the city's actions are yielding results and should be sustained.
@@ -216,12 +216,12 @@ permalink: /project/
         The data also reveals a geographically uneven distribution of cleanliness issues, with districts like Mission, Tenderloin, and South of Market being most affected. Yet, there seems to be a shift in cleanliness complaints from Tenderloin and South of Market to the Mission district in recent years, suggesting that the problem might be moving rather than resolving.
         <br>
         <br>
-        We also observe that a strong correlation exists between areas with high cleaning requests and crime incidents. Mission, Tenderloin, and South of Market, often highlighted as problematic areas, indeed exhibit a high number of both cleaning requests and crime incidents. This correlation, although not surprising considering these areas' socioeconomic status, deserves deeper investigation.
+        We also observe that a strong correlation exists between areas with high cleaning requests and crime incidents. Mission, Tenderloin, and South of Market, often highlighted as problematic areas, indeed exhibit a high number of both cleaning requests and crime incidents. This correlation, although not surprising considering these areas' socioeconomic status, deserves deeper investigation. Nonetheless, this also confirms the second hypothesis that the city's cleanliness is very much focused on a specific area of the city.
         <br>
         Looking forward, the findings from this report offer several potential directions for further research and action. One clear area is to delve deeper into the reasons behind the geographical shift of cleanliness complaints. Another is to investigate the strong correlation between cleaning requests and crime incidents and the potential underlying socioeconomic factors. Understanding these aspects could provide valuable insights into formulating effective strategies to improve the cleanliness of San Francisco's streets. A potential solution may lie in studying and adopting strategies from cities like Los Angeles, known for its more efficient trash collection programs in terms of money spent per collected trash.
         <br>
         <br>
-        As the city grapples with these challenges, it is crucial for residents and visitors to be mindful of the situation, especially when navigating the 'trifecta of trouble'. Until comprehensive solutions are implemented, the people must be vigilant and proactive in maintaining cleanliness in their neighborhoods.
+        As the city grapples with these challenges, it is crucial for residents and visitors to be mindful of the situation, especially when navigating the "trifecta of trouble". Until comprehensive solutions are implemented, the people must be vigilant and proactive in maintaining cleanliness in their neighborhoods.
     </p>
     <a id="references" style="color:inherit; text-decoration: none !important;"><h2>References</h2></a>
     <ol type="1">
@@ -229,7 +229,7 @@ permalink: /project/
             <a href="https://www.epowertrucks.co.uk/news/how-dirty-streets-are-affecting-the-environment-and-property-values-in-your-area/" target="_blank"> How Dirty Streets Are Affecting The Environment And Property Values In Your Area </a>
         </li>
         <li>
-            <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News article: SF's 'dirty streets' hurting international tourism as conventions struggle to come back </a>
+            <a href="https://abc7news.com/sf-tourism-san-francisco-streets-international-travelers-conventions-in/12227886/" target="_blank"> ABC News article: SF's "dirty streets" hurting international tourism as conventions struggle to come back </a>
         </li>
         <li>
             <a href="https://www.sfchronicle.com/opinion/letterstotheeditor/article/sf-streets-are-not-safer-or-cleaner-17596059.php" target="_blank"> SF Chronicle: Letters: Why Mayor Breed’s efforts aren’t making S.F. streets safer or cleaner </a>
@@ -272,6 +272,6 @@ permalink: /project/
         <p>
             Click the link below to get a walkthrough of our data processing.
             <br>
-            <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/project_notebook.ipynb" target="_blank">Github Repository</a>
+            <a href="https://github.com/GustavHansen99/SocialDataFinalProject/blob/master/coding/explainer_notebook.ipynb" target="_blank">Github Repository</a>
         </p>
     </footer>
